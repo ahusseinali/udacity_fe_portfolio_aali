@@ -1,0 +1,54 @@
+/* Default font and color */
+body {
+    font: 400 100% 'Lato', sans-serif;
+    color: #747704;
+}
+
+/* Header */
+.text-thin {
+    font-weight: 100;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.title-main {
+    font-size: 60px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.rule {
+    border: none;
+    height: 3px;
+    color: #bcbbbb;     /* for old IE */
+    background-color: #bcbbbb;     /* For newer browsers */
+}
+
+/* Footer title and items */
+.items-title {
+    margin-left: 10px;
+    font-size: 38px;
+}
+
+.item-name {
+    font-size: 38px;
+}
+
+.item-description {
+    font-size: 15px;
+}
+
+/* When items wrap. Make sure the images fill the entire width */
+@media screen and (max-width: 991px) {
+    .item-image {
+        width: 100%;
+    }
+}
